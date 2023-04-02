@@ -63,7 +63,7 @@ app.post("/api/customer/", (req, res, next) => {
                 return;
             }else {
                 res.status(201).json({
-                    "messege": "customer " + name + "has registered",
+                    "messege": "customer " + name + " has registered",
                     //"data":req.body,
                     "CustomerId":this.lastID
                 })
